@@ -1,4 +1,4 @@
-# n definiert die häufigkeit der Folgen dieser Fibonacci-Reihe
+""" """ # n definiert die häufigkeit der Folgen dieser Fibonacci-Reihe
 n = 15
 
 # 0 und 1 ist der Startpunkt. Ohne diese beiden Werte 
@@ -7,6 +7,9 @@ a = 0
 b = 1
 
 for f in range(n):
+
+    # gibt die aktuelle Folge in der Fib.-Reihe wieder
+    print(a)    
     
     # berechnet f als eine Folge in der Fibonacci-Reihe,
     # der sich aus a + b ergibt
@@ -17,6 +20,25 @@ for f in range(n):
     a = b
     b = f
     
-    # gibt die aktuelle Folge in der Fib.-Reihe wieder
-    print(f)
+
+ 
+
+""" class FibonacciPython:
+
+    @staticmethod
+    def fibonacci(number: int) -> int:
+        # implement me
+        # fibonacciFolgen = 10
+
+        a = 0
+        b = 1
     
+        for f in fibonacci(1):
+            
+            f = a + b
+            
+            a = b
+            b = f
+
+            print(f)
+ """
